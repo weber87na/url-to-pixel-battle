@@ -1,0 +1,38 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Credentials and machine-local settings
+.env
+.env.*
+!.env.example
+cookies.txt
+cookies*.txt
+*.pem
+*.key
+
+# Generated projects, source media and render artifacts
+/projects/
+/source/
+/analysis/
+/audio/
+/output/
+/qa/
+/validation/
+*.mp4
+*.mkv
+*.webm
+*.mov
+*.wav
+*.mp3
+*.srt
+*.vtt
+
+# Editor / OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

@@ -1,0 +1,6 @@
+interface:
+  display_name: "網址轉像素對戰動畫"
+  short_description: "貼上影片網址，自動挑選原音金句並製作具人物動作與招式特效的直式像素對戰成片"
+  default_prompt: "使用 $url-to-pixel-battle，將這個影片網址做成完整的黃版風格像素對戰 Short，保留原音並輸出 MP4："
+policy:
+  allow_implicit_invocation: true
